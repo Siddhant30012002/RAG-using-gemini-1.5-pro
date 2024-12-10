@@ -1,5 +1,5 @@
 
-# Chat with PDF using Gemini-1.5-Pro 🌟
+# Chat with PDF using Gemini-1.5-Pro 
 
 This application allows you to interact with a PDF document by asking questions and receiving concise, context-aware answers. Built with **LangChain**, **FAISS**, and **Google Generative AI** models, it leverages advanced Retrieval-Augmented Generation (RAG) techniques to deliver an efficient Q&A experience.
 
@@ -7,11 +7,11 @@ This application allows you to interact with a PDF document by asking questions 
 
 ## Features
 
-- 📄 **Document Parsing**: Load and preprocess PDF files for NLP tasks.  
-- 🔍 **Efficient Retrieval**: Uses FAISS for vector-based document retrieval with embeddings.  
-- 🤖 **AI-Powered Chat**: Integrated with **Gemini-1.5-Pro** for intelligent and context-aware responses.  
-- 🧩 **Customizable Components**: Modular design allows for flexible text chunking, retrieval, and LLM configuration.  
-- 💻 **Streamlit Interface**: Simple and interactive front-end for seamless user experience.  
+- **Document Parsing**: Load and preprocess PDF files for NLP tasks.  
+- **Efficient Retrieval**: Uses FAISS for vector-based document retrieval with embeddings.  
+- **AI-Powered Chat**: Integrated with **Gemini-1.5-Pro** for intelligent and context-aware responses.  
+- **Customizable Components**: Modular design allows for flexible text chunking, retrieval, and LLM configuration.  
+- **Streamlit Interface**: Simple and interactive front-end for seamless user experience.  
 
 ---
 
@@ -55,16 +55,6 @@ pip install -r requirements.txt
 
 ---
 
-## File Structure
-
-```
-chat-with-pdf/
-├── app.py               # Main application script
-├── requirements.txt     # List of dependencies
-├── README.md            # Documentation (this file)
-├── .env                 # Environment variables
-└── data/                # Folder for storing PDF files
-```
 
 ---
 
@@ -114,49 +104,22 @@ The `create_rag_chain()` function combines retrieval and language model capabili
 
 ---
 
-## Screenshots
-
-![App Interface](https://via.placeholder.com/800x400.png?text=Screenshot+coming+soon)
-
----
 
 ## Future Enhancements
 
-- 🔍 Support for multi-file document search.  
-- 🌐 Deploy to cloud platforms like AWS, Azure, or GCP.  
-- 🛠 Add support for more LLMs and embeddings.  
+-  Support for multi-file document search.  
+-  Deploy to cloud platforms like AWS, Azure, or GCP.  
+-  Add support for more LLMs and embeddings.  
 
 ---
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature
-   ```
-3. Commit changes and push the branch:
-   ```bash
-   git commit -m "Add your feature"
-   git push origin feature/your-feature
-   ```
-4. Open a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
 
 ## Contact
 
 For any questions or feedback, feel free to reach out:
 
-- **Email**: your-email@example.com  
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/)  
-- **GitHub**: [Your GitHub Profile](https://github.com/your-username)
+- **Email**: siddhantkadiyal08@gmail.com  
+- **LinkedIn**: [www.linkedin.com/in/siddhant-kadiyal]
+- **GitHub**: (https://github.com/Siddhant30012002)
 
 --- 
